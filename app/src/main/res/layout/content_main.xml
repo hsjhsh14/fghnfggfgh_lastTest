@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.mypp006.MainActivity"
+
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#33caff"
+
+        >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="메 인 광 고 이 미 지 슬 라ㅣ 이 더 "
+                android:textSize="50dp"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ccff22"
+        >
+        <Button
+            android:id="@+id/main_tun_but"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="툰보러가기"
+            android:layout_marginRight="25dp"
+
+
+            />
+        <Button
+            android:id="@+id/main_ep_but"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="썰보러가기"
+            />
+        <Button
+            android:id="@+id/main_hot_but"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hot썰"
+            android:layout_marginLeft="25dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#8877ff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="지 금 뜨 는 만 화 슬 라 이 더 ??       그리드뷰?? "
+            android:textSize="50dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
