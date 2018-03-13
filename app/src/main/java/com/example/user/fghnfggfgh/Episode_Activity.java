@@ -23,7 +23,7 @@ public class Episode_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_episode);
-    //gitTest 올라가 주세요 !! 메로로로롱
+    //gitTest 올라가 주세요 !! 메로로로롱dfvdcxv
        // toolbar_activity_episode = findViewById(R.id.ep)
 
         episode_activity_fragement_best = new Episode_Activity_fragement_best();
